@@ -63,7 +63,7 @@ var goodbye = function(){
 
 
   // I'm giving up this gig for another season
-  setTimeout(theEnd, (new Date() - new Date(2017,9,03)));
+  setTimeout(theEnd, 2147483647);
 
 
   // With the TV on mute
@@ -310,4 +310,3 @@ var goodbye = function(){
    created by Brendan Eich (1995)
 
 ****************************************/
-
